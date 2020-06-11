@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.js": "/static/js/main.9c41ff4d.chunk.js",
-    "main.js.map": "/static/js/main.9c41ff4d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7c9d096c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7c9d096c.js.map",
-    "static/css/2.c3343ac3.chunk.css": "/static/css/2.c3343ac3.chunk.css",
-    "static/js/2.e936030a.chunk.js": "/static/js/2.e936030a.chunk.js",
-    "static/js/2.e936030a.chunk.js.map": "/static/js/2.e936030a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.16cc3ff3ffd55c6e664d049883582dd9.js": "/precache-manifest.16cc3ff3ffd55c6e664d049883582dd9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.c3343ac3.chunk.css.map": "/static/css/2.c3343ac3.chunk.css.map",
-    "static/js/2.e936030a.chunk.js.LICENSE.txt": "/static/js/2.e936030a.chunk.js.LICENSE.txt"
+    "main.js": "/react-tutorial/static/js/main.b48686ae.chunk.js",
+    "main.js.map": "/react-tutorial/static/js/main.b48686ae.chunk.js.map",
+    "runtime-main.js": "/react-tutorial/static/js/runtime-main.ee9240c0.js",
+    "runtime-main.js.map": "/react-tutorial/static/js/runtime-main.ee9240c0.js.map",
+    "static/css/2.151620d8.chunk.css": "/react-tutorial/static/css/2.151620d8.chunk.css",
+    "static/js/2.2a600741.chunk.js": "/react-tutorial/static/js/2.2a600741.chunk.js",
+    "static/js/2.2a600741.chunk.js.map": "/react-tutorial/static/js/2.2a600741.chunk.js.map",
+    "index.html": "/react-tutorial/index.html",
+    "precache-manifest.d09914fa24433b631127fe605da97a94.js": "/react-tutorial/precache-manifest.d09914fa24433b631127fe605da97a94.js",
+    "service-worker.js": "/react-tutorial/service-worker.js",
+    "static/css/2.151620d8.chunk.css.map": "/react-tutorial/static/css/2.151620d8.chunk.css.map",
+    "static/js/2.2a600741.chunk.js.LICENSE.txt": "/react-tutorial/static/js/2.2a600741.chunk.js.LICENSE.txt",
+    "static/media/brands.css": "/react-tutorial/static/media/fa-brands-400.ec3cfdde.woff",
+    "static/media/solid.css": "/react-tutorial/static/media/fa-solid-900.ec763292.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c9d096c.js",
-    "static/css/2.c3343ac3.chunk.css",
-    "static/js/2.e936030a.chunk.js",
-    "static/js/main.9c41ff4d.chunk.js"
+    "static/js/runtime-main.ee9240c0.js",
+    "static/css/2.151620d8.chunk.css",
+    "static/js/2.2a600741.chunk.js",
+    "static/js/main.b48686ae.chunk.js"
   ]
 }
