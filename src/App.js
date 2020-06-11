@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -30,7 +30,7 @@ const Profile = () => {
     <div>
       <article class="message">
         <div class="message-body has-text-centered is-size-5">
-          こんにちは！畑佐有輝と申します。
+          こんにちは！<strong>ハタサユウキ</strong>と申します。
           <br></br>
           日本大学文理学部に所属している3年生です。
           <br></br>
@@ -54,12 +54,32 @@ const Profile = () => {
                 <li>
                   AtCoder : <span className="has-text-grey">灰色</span>
                 </li>
-                <li>Please Watch
-                <ul>
-                  <li>twitter : <a href="https://twitter.com/h61651"><i className="fab fa-twitter-square fab fa-lg"></i></a></li>
-                  <li>Instagram : <a href="https://www.instagram.com/h61651/"><span className="icon has-text-danger"><i class="fab fa-instagram-square fab fa-lg"></i></span></a></li>
-                  <li>Github : <a href="https://github.com/yk-hts"><span className="icon has-text-black"><i class="fab fa-github-square fab fa-lg"></i></span></a></li>
-                </ul>
+                <li>
+                  Please Watch
+                  <ul>
+                    <li>
+                      twitter :{" "}
+                      <a href="https://twitter.com/h61651">
+                        <i className="fab fa-twitter-square fab fa-lg"></i>
+                      </a>
+                    </li>
+                    <li>
+                      Instagram :{" "}
+                      <a href="https://www.instagram.com/h61651/">
+                        <span className="icon has-text-danger">
+                          <i class="fab fa-instagram-square fab fa-lg"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      Github :{" "}
+                      <a href="https://github.com/yk-hts">
+                        <span className="icon has-text-black">
+                          <i class="fab fa-github-square fab fa-lg"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -85,10 +105,88 @@ const Profile = () => {
   );
 };
 const Skill = () => {
-  return <div>Skill</div>;
+  return (
+    <div>
+      <article class="message">
+        <div class="message-body has-text-centered is-size-5">
+          このページでは自分が今までに使ってきた言語、学んできた言語
+          <br></br>
+          使用してたツール、これから学んでいこうと思ってものについて紹介します
+          <br></br>
+          自分が今までに参加したイベント,コンテストについて紹介します。
+        </div>
+      </article>
+      <section className="section">
+        <div className="container">
+          <h1 className="title is-size-1">使用言語</h1>
+          <div className="content is-size-4">
+            <ul>
+              <li>C言語</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <h1 className="title is-size-1">イベント,コンテスト参加経験</h1>
+          <div className="content is-size-4">
+            <ul>
+              <li>Ionic Japan Camp 2020 Spring @日本大学　参加 </li>
+              <li>
+                <a href="https://atcoder.jp/users/Yk_Hts">AtCoder</a>
+              </li>
+            </ul>
+          </div>
+          <h1 className="title is-size-1">使用しているツール</h1>
+          <div className="content is-size-4">
+            <ul>
+              <li>slack</li>
+              <li>
+                <a href="https://github.com/yk-hts">Github</a>
+              </li>
+            </ul>
+          </div>
+          <h1 className="title is-size-1">
+            これから勉強しようと思っている分野
+          </h1>
+          <div className="content is-size-4">
+            <ul>
+              <li>SQL</li>
+              <li>React</li>
+              <li>アルゴリズムF</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 const Like = () => {
-  return <div>Like</div>;
+  return (
+    <div>
+      <article class="message">
+        <div class="message-body has-text-centered is-size-5">
+          このページでは自分の趣味や好きなことについて紹介します。
+        </div>
+      </article>
+      <section className="section">
+        <div className="container">
+          <h1 className="titile is-size-1">野球観戦</h1>
+          {/* <figure class="image is-128x128">
+            <img src="react-tutorial/image/tokyo.png" alt=""/>
+          </figure> */}
+          <p>自分は小学生から中学生まで野球をやっていました。その影響で今でも野球が好きでテレビで見ることはもちろん、球場に足を運んで見に行くことも好きです。<br></br>
+          一番近場なので東京ドームに見に行くことが一番多いですが、埼玉にある西武ドームに見に行くこともあります。だいたい年間4,5回くらい観に行っています。今年はコロナウイルスの影響でまだ見に行けていませんが、<br></br>
+          観戦席るようになればまた今年も見に行きたいと思っています。</p>
+          <br></br>
+          <h1 className="titile is-size-1">旅行</h1>
+        <p>自分は旅行が好きで長期休みが取れると大体毎回どこかしらに旅行にいきます。自分は温泉が好きなので寒い時期はよく温泉が有名なところに行きます。<br></br>
+        まだ海外には行ったことないのでお金があったら行ってみたいと思います。</p>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 const App = () => {
